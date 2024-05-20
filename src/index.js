@@ -1,17 +1,22 @@
 import Router from './Router';
-import Search from './controllers/Search';
+import Login from './controllers/Login';
 import Home from './controllers/Home';
+import Dashboard from './controllers/Dashboard'
 
 import './index.scss';
 
 const routes = [
   {
-    url: '/',
+    url: '/home',
     controller: Home
   },
   {
-    url: '/search',
-    controller: Search
+    url: '/login',
+    controller: Login
+  },
+  {
+    url: '/dashboard',
+    controller: Dashboard
   }
 ];
 
