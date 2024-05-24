@@ -1,11 +1,6 @@
-import axios from 'axios';
 import viewHeader from '../views/home/header';
-import viewMain from '../views/home/main';
-import ViewSection2 from '../views/home/section2';
-import ViewSection3 from '../views/home/section3';
-import Footer from '../views/home/footer';
 
-const Home = class {
+const Register = class {
   constructor(params) {
     this.el = document.querySelector('#root');
     this.params = params;
@@ -17,10 +12,6 @@ const Home = class {
   render() {
     return `
       ${viewHeader()}
-      ${viewMain()}
-      ${ViewSection2()}
-      ${ViewSection3()}
-      ${Footer()}
     `;
   }
 
@@ -63,4 +54,4 @@ const Home = class {
   }
 };
 
-export default Home;
+export default Register;

@@ -1,17 +1,20 @@
-import Logo from '../../assets/img/logo.svg';
+import Logo from '../../assets/img/event2.png';
 
 function Header() {
 
   return `
-        <header class="header" id="header">
+<header class="headerDashboard" id="header">
       <nav class="nav container">
-        <a href="/home" class="nav__logo"> <img src="${Logo}" alt="Logo" /></a>
-        <p id="logo">session</p>
-
+        <a href="/home" class="nav__logo"> 
+        <img src="${Logo}" alt="Logo" />
+        </a>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
+          <li class="nav__item">
+              <a href="/home" class="nav__link active-link">Accueil</a>
+            </li>
             <li class="nav__item">
-              <p id="logout" class="nav__link">Logout</p>
+              <a href="/login" class="nav__link">Logout</a>
             </li>
           </ul>
 

@@ -1,6 +1,6 @@
 import axios from "axios";
 import viewHeader from "../views/home/header";
-import viewLogin from "../views/login/login";
+import viewLogin from "../views/login_register/login";
 
 const Login = class {
   constructor(params) {
