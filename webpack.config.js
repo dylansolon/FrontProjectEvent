@@ -47,9 +47,9 @@ module.exports = {
   devServer: {
     headers: {
       "Access-Control-Allow-Origin": "*",
-      "Access-Control-Allow-Headers": "Content-Type",
-      "Access-Control-Allow-Methods": "PUT, DELETE, PATCH, POST, OPTIONS",
-      "Access-Control-Allow-Credentials": true,
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+      "Access-Control-Allow-Headers": "X-Requested-With, content-type, Authorization",
+      "Access-Control-Allow-Credentials": true
     },
     historyApiFallback: true,
     host: '127.0.0.1',

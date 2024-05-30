@@ -1,7 +1,6 @@
-import Logo from '../../assets/img/event2.png';
+import Logo from "../../assets/img/event2.png";
 
 function Header() {
-
   return `
 <header class="headerDashboard" id="header">
       <nav class="nav container">
@@ -29,7 +28,6 @@ function Header() {
       </nav>
     </header>
   `;
-
 }
 
 export default Header;

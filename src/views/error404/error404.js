@@ -1,5 +1,4 @@
 function Quatre04() {
-
   return `
 <div class="main_wrapper">
   <div class="main">
@@ -68,7 +67,6 @@ function Quatre04() {
   </div>
 </div>
   `;
-
 }
 
 export default Quatre04;

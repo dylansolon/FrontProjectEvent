@@ -1,8 +1,8 @@
-import error404 from '../views/error404/error404';
+import error404 from "../views/error404/error404";
 
 const Quatre04 = class {
   constructor() {
-    this.el = document.querySelector('#root');
+    this.el = document.querySelector("#root");
 
     this.run();
   }
@@ -10,7 +10,7 @@ const Quatre04 = class {
   render() {
     return `
     ${error404()};
-    `
+    `;
   }
 
   run() {
